@@ -42,9 +42,8 @@ workflows:
     publishing:
       firebase:
         firebase_token: $FIREBASE_TOKEN
-        android: []
         ios:
-          - app_id: $FIREBASE_APP_ID
+            app_id: $FIREBASE_APP_ID
             testers:
               - o.frankiv@ukma.edu.ua
             groups: []
