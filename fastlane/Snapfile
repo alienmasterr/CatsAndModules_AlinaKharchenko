@@ -1,0 +1,23 @@
+devices([
+  "iPhone SE (3rd generation)",
+  "iPhone 13"
+])
+
+languages([
+"en-US",
+"de-DE"
+])
+
+scheme("CatsAndModules_AlinaKharchenko")
+
+project("./CatsAndModules_AlinaKharchenko.xcodeproj")
+
+output_directory("./screenshots")
+
+clear_previous_screenshots(true)
+
+override_status_bar(true)
+skip_package_dependencies_resolution(true)
+
+
+

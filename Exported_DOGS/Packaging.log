@@ -1,0 +1,476 @@
+2026-05-29 20:27:46 +0000 [MT] Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f61b5800; archive(resolved)="<IDEArchive: 0x7f6bab9c0>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x7f86b0490>", team(resolved)="<IDEProvisioningBasicTeam: 0x7f8798000; teamID='D85QWSUNYA', teamName='(null)'>">
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7f61b5800; archive = "<IDEArchive: 0x7f6bab9c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x7f86b0490>", team="<IDEProvisioningBasicTeam: 0x7f8798000; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionProcessingPipelineContext: 0x7f61b5b00; archive = "<IDEArchive: 0x7f6bab9c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x7f86b0490>", team="<IDEProvisioningBasicTeam: 0x7f8798000; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x7f861f200; archive = "<IDEArchive: 0x7f6bab9c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x7f86b0490>", team="<IDEProvisioningBasicTeam: 0x7f8798000; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x7f861e080; archive = "<IDEArchive: 0x7f6bab9c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x7f86b0490>", team="<IDEProvisioningBasicTeam: 0x7f8798000; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x7f861de00; archive = "<IDEArchive: 0x7f6bab9c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x7f86b0490>", team="<IDEProvisioningBasicTeam: 0x7f8798000; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x7f861db80; archive = "<IDEArchive: 0x7f6bab9c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x7f86b0490>", team="<IDEProvisioningBasicTeam: 0x7f8798000; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x7f861d900; archive = "<IDEArchive: 0x7f6bab9c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x7f86b0490>", team="<IDEProvisioningBasicTeam: 0x7f8798000; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x7f861d680; archive = "<IDEArchive: 0x7f6bab9c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x7f86b0490>", team="<IDEProvisioningBasicTeam: 0x7f8798000; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x7f861d400; archive = "<IDEArchive: 0x7f6bab9c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x7f86b0490>", team="<IDEProvisioningBasicTeam: 0x7f8798000; teamID='D85QWSUNYA', teamName='(null)'>">
+	<IDEDistributionContext: 0x7f861d180; archive = "<IDEArchive: 0x7f6bab9c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x7f86b0490>", team="(null)">
+	<IDEDistributionContext: 0x7f861cf00; archive = "<IDEArchive: 0x7f6bab9c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x7f86b0490>", team="(null)">
+	<IDEDistributionContext: 0x7f861cc80; archive = "<IDEArchive: 0x7f6bab9c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x7f86b0490>", team="(null)">
+	<IDEDistributionContext: 0x7f861c000; archive = "<IDEArchive: 0x7f6bab9c0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x7f86b0490>", team="(null)">
+	<IDEDistributionContext: 0x10508d350; archive = "<IDEArchive: 0x7f6bab9c0>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x7f61b5800>
+2026-05-29 20:27:46 +0000 [MT] Processing step: IDEDistributionCreateDestRootStep
+2026-05-29 20:27:46 +0000 [MT] Processing step: IDEDistributionCopyItemStep
+2026-05-29 20:27:46 +0000 [MT] Running /usr/bin/ditto '-V' '/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app' '/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app'
+2026-05-29 20:27:46 +0000  >>> Copying /Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app 
+2026-05-29 20:27:46 +0000  copying file ./_CodeSignature/CodeResources ... 
+2026-05-29 20:27:46 +0000  19361 bytes for ./_CodeSignature/CodeResources
+2026-05-29 20:27:46 +0000  copying file ./Firebase_FirebaseCore.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  855 bytes for ./Firebase_FirebaseCore.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./Firebase_FirebaseCore.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  696 bytes for ./Firebase_FirebaseCore.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./Firebase_FirebaseCrashlytics.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  1383 bytes for ./Firebase_FirebaseCrashlytics.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./Firebase_FirebaseCrashlytics.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  710 bytes for ./Firebase_FirebaseCrashlytics.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./nanopb_nanopb.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  374 bytes for ./nanopb_nanopb.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./nanopb_nanopb.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  670 bytes for ./nanopb_nanopb.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  478 bytes for ./GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  748 bytes for ./GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-NSData.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  478 bytes for ./GoogleUtilities_GoogleUtilities-NSData.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  722 bytes for ./GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./Networking/.gitignore ... 
+2026-05-29 20:27:46 +0000  159 bytes for ./Networking/.gitignore
+2026-05-29 20:27:46 +0000  copying file ./Networking/Package.swift ... 
+2026-05-29 20:27:46 +0000  776 bytes for ./Networking/Package.swift
+2026-05-29 20:27:46 +0000  copying file ./Networking/Sources/Networking/CatAPIService.swift ... 
+2026-05-29 20:27:46 +0000  2707 bytes for ./Networking/Sources/Networking/CatAPIService.swift
+2026-05-29 20:27:46 +0000  copying file ./Networking/Sources/Networking/Networking.swift ... 
+2026-05-29 20:27:46 +0000  71 bytes for ./Networking/Sources/Networking/Networking.swift
+2026-05-29 20:27:46 +0000  copying file ./Networking/Sources/Networking/Models/Cat.swift ... 
+2026-05-29 20:27:46 +0000  978 bytes for ./Networking/Sources/Networking/Models/Cat.swift
+2026-05-29 20:27:46 +0000  copying file ./Networking/.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata ... 
+2026-05-29 20:27:46 +0000  135 bytes for ./Networking/.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+2026-05-29 20:27:46 +0000  copying file ./Networking/.swiftpm/xcode/package.xcworkspace/xcuserdata/alina.xcuserdatad/UserInterfaceState.xcuserstate ... 
+2026-05-29 20:27:46 +0000  12140 bytes for ./Networking/.swiftpm/xcode/package.xcworkspace/xcuserdata/alina.xcuserdatad/UserInterfaceState.xcuserstate
+2026-05-29 20:27:46 +0000  copying file ./Networking/.swiftpm/xcode/xcuserdata/alina.xcuserdatad/xcschemes/xcschememanagement.plist ... 
+2026-05-29 20:27:46 +0000  345 bytes for ./Networking/.swiftpm/xcode/xcuserdata/alina.xcuserdatad/xcschemes/xcschememanagement.plist
+2026-05-29 20:27:46 +0000  copying file ./Firebase_FirebaseInstallations.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  1105 bytes for ./Firebase_FirebaseInstallations.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./Firebase_FirebaseInstallations.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  714 bytes for ./Firebase_FirebaseInstallations.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./Firebase_FirebaseCoreInternal.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  855 bytes for ./Firebase_FirebaseCoreInternal.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./Firebase_FirebaseCoreInternal.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  712 bytes for ./Firebase_FirebaseCoreInternal.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-Logger.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  478 bytes for ./GoogleUtilities_GoogleUtilities-Logger.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  722 bytes for ./GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-Reachability.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  478 bytes for ./GoogleUtilities_GoogleUtilities-Reachability.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  734 bytes for ./GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./GoogleService-Info.plist ... 
+2026-05-29 20:27:46 +0000  540 bytes for ./GoogleService-Info.plist
+2026-05-29 20:27:46 +0000  copying file ./Firebase_FirebaseABTesting.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  478 bytes for ./Firebase_FirebaseABTesting.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./Firebase_FirebaseABTesting.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  706 bytes for ./Firebase_FirebaseABTesting.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./GoogleDataTransport_GoogleDataTransport.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  1105 bytes for ./GoogleDataTransport_GoogleDataTransport.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./GoogleDataTransport_GoogleDataTransport.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  724 bytes for ./GoogleDataTransport_GoogleDataTransport.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./Promises_FBLPromises.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  373 bytes for ./Promises_FBLPromises.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./Promises_FBLPromises.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  686 bytes for ./Promises_FBLPromises.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-Network.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  856 bytes for ./GoogleUtilities_GoogleUtilities-Network.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  724 bytes for ./GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./CatsAndModules_AlinaKharchenko ... 
+2026-05-29 20:27:46 +0000  1827376 bytes for ./CatsAndModules_AlinaKharchenko
+2026-05-29 20:27:46 +0000  copying file ./Firebase_FirebaseCoreExtension.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  478 bytes for ./Firebase_FirebaseCoreExtension.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./Firebase_FirebaseCoreExtension.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  714 bytes for ./Firebase_FirebaseCoreExtension.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-UserDefaults.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  911 bytes for ./GoogleUtilities_GoogleUtilities-UserDefaults.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  734 bytes for ./GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./Promises_Promises.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  373 bytes for ./Promises_Promises.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./Promises_Promises.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  680 bytes for ./Promises_Promises.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-Environment.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  855 bytes for ./GoogleUtilities_GoogleUtilities-Environment.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  732 bytes for ./GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources ... 
+2026-05-29 20:27:46 +0000  1798 bytes for ./Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+2026-05-29 20:27:46 +0000  copying file ./Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement ... 
+2026-05-29 20:27:46 +0000  51392 bytes for ./Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+2026-05-29 20:27:46 +0000  copying file ./Frameworks/GoogleAppMeasurement.framework/Info.plist ... 
+2026-05-29 20:27:46 +0000  1550 bytes for ./Frameworks/GoogleAppMeasurement.framework/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources ... 
+2026-05-29 20:27:46 +0000  1798 bytes for ./Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+2026-05-29 20:27:46 +0000  copying file ./Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics ... 
+2026-05-29 20:27:46 +0000  51392 bytes for ./Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+2026-05-29 20:27:46 +0000  copying file ./Frameworks/FirebaseAnalytics.framework/Info.plist ... 
+2026-05-29 20:27:46 +0000  1541 bytes for ./Frameworks/FirebaseAnalytics.framework/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources ... 
+2026-05-29 20:27:46 +0000  1798 bytes for ./Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources
+2026-05-29 20:27:46 +0000  copying file ./Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion ... 
+2026-05-29 20:27:46 +0000  51408 bytes for ./Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion
+2026-05-29 20:27:46 +0000  copying file ./Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist ... 
+2026-05-29 20:27:46 +0000  1521 bytes for ./Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources ... 
+2026-05-29 20:27:46 +0000  1798 bytes for ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+2026-05-29 20:27:46 +0000  copying file ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport ... 
+2026-05-29 20:27:46 +0000  51424 bytes for ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+2026-05-29 20:27:46 +0000  copying file ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist ... 
+2026-05-29 20:27:46 +0000  1595 bytes for ./Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:46 +0000  478 bytes for ./GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:46 +0000  copying file ./GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist ... 
+2026-05-29 20:27:46 +0000  738 bytes for ./GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist
+2026-05-29 20:27:46 +0000  copying file ./embedded.mobileprovision ... 
+2026-05-29 20:27:46 +0000  12348 bytes for ./embedded.mobileprovision
+2026-05-29 20:27:46 +0000  copying file ./Info.plist ... 
+2026-05-29 20:27:46 +0000  1307 bytes for ./Info.plist
+2026-05-29 20:27:46 +0000  copying file ./PkgInfo ... 
+2026-05-29 20:27:46 +0000  8 bytes for ./PkgInfo
+2026-05-29 20:27:46 +0000 [MT] /usr/bin/ditto exited with 0
+2026-05-29 20:27:46 +0000 [MT] Processing step: IDEDistributionEmbedProfileStep
+2026-05-29 20:27:46 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f616d920; bundleID='org.cocoapods.FirebaseAnalytics', path='<DVTFilePath:0x7f6126530:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616d980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ec40; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.FirebaseAnalytics', executablePath='<DVTFilePath:0x7f6126610:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'>
+2026-05-29 20:27:46 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f616d8c0; bundleID='com.google.ads.GoogleAdsOnDeviceConversion', path='<DVTFilePath:0x7f863f680:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616d860; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ec40; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='com.google.ads.GoogleAdsOnDeviceConversion', executablePath='<DVTFilePath:0x7f6126840:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion'>', hardenedRuntime='0'>'>
+2026-05-29 20:27:46 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f616d9e0; bundleID='org.cocoapods.GoogleAppMeasurement', path='<DVTFilePath:0x7f6126370:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616da40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ec40; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurement', executablePath='<DVTFilePath:0x7f6126450:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'>
+2026-05-29 20:27:46 +0000 [MT] Skipping profile for item: <IDEDistributionItem: 0x7f616daa0; bundleID='org.cocoapods.GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x7f863fa80:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616db00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ec40; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x7f863fc00:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'>
+2026-05-29 20:27:46 +0000 [MT] Processing step: IDEDistributionInfoPlistStep
+2026-05-29 20:27:46 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-05-29 20:27:46 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-05-29 20:27:46 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-05-29 20:27:46 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-05-29 20:27:46 +0000 [MT] Skipping step: IDEDistributionInfoPlistStep because it said so
+2026-05-29 20:27:46 +0000 [MT] Processing step: IDEDistributionAppThinningPlistStep
+2026-05-29 20:27:46 +0000 [MT] Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2026-05-29 20:27:46 +0000 [MT] Processing step: IDEDistributionSymbolsStep
+2026-05-29 20:27:46 +0000 [MT] Skipping step: IDEDistributionSymbolsStep because it said so
+2026-05-29 20:27:46 +0000 [MT] Processing step: IDEDistributionAppThinningStep
+2026-05-29 20:27:46 +0000 [MT] Skipping step: IDEDistributionAppThinningStep because it said so
+2026-05-29 20:27:46 +0000 [MT] Processing step: IDEDistributionArchThinningStep
+2026-05-29 20:27:46 +0000 [MT] Archs to thin for item /Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework are []
+2026-05-29 20:27:46 +0000 [MT] Archs to thin for item /Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework are []
+2026-05-29 20:27:46 +0000 [MT] Archs to thin for item /Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework are []
+2026-05-29 20:27:46 +0000 [MT] Archs to thin for item /Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework are []
+2026-05-29 20:27:46 +0000 [MT] Archs to thin for item /Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app are []
+2026-05-29 20:27:46 +0000 [MT] Processing step: IDEDistributionODRStep
+2026-05-29 20:27:46 +0000 [MT] Processing step: IDEDistributionStripXattrsStep
+2026-05-29 20:27:46 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-05-29 20:27:46 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-05-29 20:27:46 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-05-29 20:27:46 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-05-29 20:27:46 +0000 [MT] Skipping stripping extended attributes because the codesign step will strip them.
+2026-05-29 20:27:46 +0000 [MT] Processing step: IDEDistributionCodesignStep
+2026-05-29 20:27:46 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f616d920; bundleID='org.cocoapods.FirebaseAnalytics', path='<DVTFilePath:0x7f6126530:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616d980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ec40; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.FirebaseAnalytics', executablePath='<DVTFilePath:0x7f6126610:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'>: {
+}
+2026-05-29 20:27:46 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-05-29 20:27:46 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f616d920; bundleID='org.cocoapods.FirebaseAnalytics', path='<DVTFilePath:0x7f6126530:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616d980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ed00; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.FirebaseAnalytics', executablePath='<DVTFilePath:0x7f6126610:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'> are: {
+}
+2026-05-29 20:27:46 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f616d920; bundleID='org.cocoapods.FirebaseAnalytics', path='<DVTFilePath:0x7f6126530:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616d980; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ed00; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.FirebaseAnalytics', executablePath='<DVTFilePath:0x7f6126610:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics'>', hardenedRuntime='0'>'> to: /var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/entitlements~~~S2FGFH
+2026-05-29 20:27:46 +0000 [MT] invoking codesign: <NSConcreteTask: 0x7f63b1400; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A,
+    "--entitlements",
+    "/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/entitlements~~~S2FGFH",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework"
+)'>
+2026-05-29 20:27:46 +0000 [MT] codesign output: /var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework: replacing existing signature
+/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.FirebaseAnalytics]
+2026-05-29 20:27:46 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f616d8c0; bundleID='com.google.ads.GoogleAdsOnDeviceConversion', path='<DVTFilePath:0x7f863f680:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616d860; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ec40; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='com.google.ads.GoogleAdsOnDeviceConversion', executablePath='<DVTFilePath:0x7f6126840:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion'>', hardenedRuntime='0'>'>: {
+}
+2026-05-29 20:27:46 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-05-29 20:27:46 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f616d8c0; bundleID='com.google.ads.GoogleAdsOnDeviceConversion', path='<DVTFilePath:0x7f863f680:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616d860; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ed00; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='com.google.ads.GoogleAdsOnDeviceConversion', executablePath='<DVTFilePath:0x7f6126840:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion'>', hardenedRuntime='0'>'> are: {
+}
+2026-05-29 20:27:46 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f616d8c0; bundleID='com.google.ads.GoogleAdsOnDeviceConversion', path='<DVTFilePath:0x7f863f680:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616d860; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ed00; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='com.google.ads.GoogleAdsOnDeviceConversion', executablePath='<DVTFilePath:0x7f6126840:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion'>', hardenedRuntime='0'>'> to: /var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/entitlements~~~O7xL6q
+2026-05-29 20:27:46 +0000 [MT] invoking codesign: <NSConcreteTask: 0x7f63b1540; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A,
+    "--entitlements",
+    "/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/entitlements~~~O7xL6q",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework"
+)'>
+2026-05-29 20:27:46 +0000 [MT] codesign output: /var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework: replacing existing signature
+/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework: signed bundle with Mach-O universal (arm64) [com.google.ads.GoogleAdsOnDeviceConversion]
+2026-05-29 20:27:46 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f616d9e0; bundleID='org.cocoapods.GoogleAppMeasurement', path='<DVTFilePath:0x7f6126370:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616da40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ec40; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurement', executablePath='<DVTFilePath:0x7f6126450:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'>: {
+}
+2026-05-29 20:27:46 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-05-29 20:27:46 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f616d9e0; bundleID='org.cocoapods.GoogleAppMeasurement', path='<DVTFilePath:0x7f6126370:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616da40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ed00; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurement', executablePath='<DVTFilePath:0x7f6126450:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'> are: {
+}
+2026-05-29 20:27:46 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f616d9e0; bundleID='org.cocoapods.GoogleAppMeasurement', path='<DVTFilePath:0x7f6126370:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616da40; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ed00; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurement', executablePath='<DVTFilePath:0x7f6126450:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement'>', hardenedRuntime='0'>'> to: /var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/entitlements~~~5ptrOf
+2026-05-29 20:27:46 +0000 [MT] invoking codesign: <NSConcreteTask: 0x7f63b1540; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A,
+    "--entitlements",
+    "/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/entitlements~~~5ptrOf",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework"
+)'>
+2026-05-29 20:27:46 +0000 [MT] codesign output: /var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework: replacing existing signature
+/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.GoogleAppMeasurement]
+2026-05-29 20:27:46 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f616daa0; bundleID='org.cocoapods.GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x7f863fa80:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616db00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ec40; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x7f863fc00:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'>: {
+}
+2026-05-29 20:27:46 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-05-29 20:27:46 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f616daa0; bundleID='org.cocoapods.GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x7f863fa80:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616db00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ed00; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x7f863fc00:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'> are: {
+}
+2026-05-29 20:27:46 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f616daa0; bundleID='org.cocoapods.GoogleAppMeasurementIdentitySupport', path='<DVTFilePath:0x7f863fa80:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616db00; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ed00; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='(null)', teamID='D85QWSUNYA', identifier='org.cocoapods.GoogleAppMeasurementIdentitySupport', executablePath='<DVTFilePath:0x7f863fc00:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport'>', hardenedRuntime='0'>'> to: /var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/entitlements~~~FoTWVk
+2026-05-29 20:27:46 +0000 [MT] invoking codesign: <NSConcreteTask: 0x7f63b1540; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A,
+    "--entitlements",
+    "/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/entitlements~~~FoTWVk",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework"
+)'>
+2026-05-29 20:27:47 +0000 [MT] codesign output: /var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework: replacing existing signature
+/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.GoogleAppMeasurementIdentitySupport]
+2026-05-29 20:27:47 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f616dc20; bundleID='ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko', path='<DVTFilePath:0x7f8545400:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616dbc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ec40; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='{
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko', executablePath='<DVTFilePath:0x7f6125e30:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/CatsAndModules_AlinaKharchenko'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}
+2026-05-29 20:27:47 +0000 [MT] Associated App Clip Identifiers Filter: Skipping because "com.apple.developer.associated-appclip-app-identifiers" is not present
+2026-05-29 20:27:47 +0000 [MT] Entitlements for <IDEDistributionItem: 0x7f616dc20; bundleID='ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko', path='<DVTFilePath:0x7f8545400:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616dbc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ed00; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='{
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko', executablePath='<DVTFilePath:0x7f6125e30:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/CatsAndModules_AlinaKharchenko'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}
+2026-05-29 20:27:47 +0000 [MT] Writing entitlements for <IDEDistributionItem: 0x7f616dc20; bundleID='ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko', path='<DVTFilePath:0x7f8545400:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7f616dbc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7f6b7ed00; name='iPhone Developer: Alina Kharchenko (7A75R54LX2)', hash='9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A', serialNumber='1058918A79AEFAC36546C2CB73C69C3A', certificateKinds='(
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2026-05-18 15:15:37 +0000''>', entitlements='{
+    "application-identifier" = "D85QWSUNYA.ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko";
+    "com.apple.developer.team-identifier" = D85QWSUNYA;
+    "get-task-allow" = 1;
+}', teamID='D85QWSUNYA', identifier='ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko', executablePath='<DVTFilePath:0x7f6125e30:'/Users/alina/Documents/Alina/education/kma/year3/term3/робота в середовищі apple/xcodebuild_AlinaKharchenko/CatsAndModules_AlinaKharchenko/build/CatsAndModules.xcarchive/Products/Applications/CatsAndModules_AlinaKharchenko.app/CatsAndModules_AlinaKharchenko'>', hardenedRuntime='0'>'> to: /var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/entitlements~~~71tAXq
+2026-05-29 20:27:47 +0000 [MT] invoking codesign: <NSConcreteTask: 0x7f63b1540; launchPath='/usr/bin/codesign', arguments='(
+    "-f",
+    "-s",
+    9256BCE2875B1CD0E0FD9D608FE2D4200FCD0F2A,
+    "--entitlements",
+    "/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/entitlements~~~71tAXq",
+    "--preserve-metadata=identifier,flags,runtime,launch-constraints,library-constraints",
+    "--generate-entitlement-der",
+    "--strip-disallowed-xattrs",
+    "-vvv",
+    "/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app"
+)'>
+2026-05-29 20:27:47 +0000 [MT] codesign output: /var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app: replacing existing signature
+/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app: signed app bundle with Mach-O thin (arm64) [ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko]
+2026-05-29 20:27:47 +0000 [MT] Processing step: IDEDistributionZipODRItemStep
+2026-05-29 20:27:47 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-05-29 20:27:47 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-05-29 20:27:47 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-05-29 20:27:47 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-05-29 20:27:47 +0000 [MT] Skipping step: IDEDistributionZipODRItemStep because it said so
+2026-05-29 20:27:47 +0000 [MT] Processing step: IDEDistributionCreateIPAStep
+2026-05-29 20:27:47 +0000 [MT] Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root' '/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Packages/CatsAndModules_AlinaKharchenko.ipa'
+2026-05-29 20:27:47 +0000  >>> Copying /var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root 
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/_CodeSignature/CodeResources ... 
+2026-05-29 20:27:47 +0000  19361 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/_CodeSignature/CodeResources
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCore.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  855 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCore.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCore.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  696 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCore.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCrashlytics.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  1383 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCrashlytics.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCrashlytics.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  710 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCrashlytics.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/nanopb_nanopb.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  374 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/nanopb_nanopb.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/nanopb_nanopb.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  670 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/nanopb_nanopb.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  478 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  748 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-AppDelegateSwizzler.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-NSData.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  478 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-NSData.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  722 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-NSData.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/.gitignore ... 
+2026-05-29 20:27:47 +0000  159 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/.gitignore
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/Package.swift ... 
+2026-05-29 20:27:47 +0000  776 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/Package.swift
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/Sources/Networking/CatAPIService.swift ... 
+2026-05-29 20:27:47 +0000  2707 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/Sources/Networking/CatAPIService.swift
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/Sources/Networking/Networking.swift ... 
+2026-05-29 20:27:47 +0000  71 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/Sources/Networking/Networking.swift
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/Sources/Networking/Models/Cat.swift ... 
+2026-05-29 20:27:47 +0000  978 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/Sources/Networking/Models/Cat.swift
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata ... 
+2026-05-29 20:27:47 +0000  135 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/.swiftpm/xcode/package.xcworkspace/xcuserdata/alina.xcuserdatad/UserInterfaceState.xcuserstate ... 
+2026-05-29 20:27:47 +0000  12140 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/.swiftpm/xcode/package.xcworkspace/xcuserdata/alina.xcuserdatad/UserInterfaceState.xcuserstate
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/.swiftpm/xcode/xcuserdata/alina.xcuserdatad/xcschemes/xcschememanagement.plist ... 
+2026-05-29 20:27:47 +0000  345 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Networking/.swiftpm/xcode/xcuserdata/alina.xcuserdatad/xcschemes/xcschememanagement.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseInstallations.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  1105 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseInstallations.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseInstallations.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  714 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseInstallations.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCoreInternal.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  855 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCoreInternal.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCoreInternal.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  712 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCoreInternal.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Logger.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  478 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Logger.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  722 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Logger.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  478 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  734 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Reachability.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleService-Info.plist ... 
+2026-05-29 20:27:47 +0000  540 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleService-Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseABTesting.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  478 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseABTesting.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseABTesting.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  706 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseABTesting.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleDataTransport_GoogleDataTransport.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  1105 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleDataTransport_GoogleDataTransport.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleDataTransport_GoogleDataTransport.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  724 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleDataTransport_GoogleDataTransport.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Promises_FBLPromises.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  373 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Promises_FBLPromises.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Promises_FBLPromises.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  686 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Promises_FBLPromises.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Network.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  856 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Network.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  724 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Network.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/CatsAndModules_AlinaKharchenko ... 
+2026-05-29 20:27:47 +0000  1827376 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/CatsAndModules_AlinaKharchenko
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCoreExtension.bundle/PrivacyInfo.xcprivacy ... 
+478 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCoreExtension.bundle/PrivacyInfo.xcprivacy
+copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCoreExtension.bundle/Info.plist ... 
+714 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Firebase_FirebaseCoreExtension.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  911 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  734 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-UserDefaults.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Promises_Promises.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  373 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Promises_Promises.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Promises_Promises.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  680 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Promises_Promises.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Environment.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  855 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Environment.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  732 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-Environment.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources ... 
+2026-05-29 20:27:47 +0000  1798 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework/_CodeSignature/CodeResources
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement ... 
+2026-05-29 20:27:47 +0000  51392 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework/GoogleAppMeasurement
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework/Info.plist ... 
+2026-05-29 20:27:47 +0000  1550 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources ... 
+2026-05-29 20:27:47 +0000  1798 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework/_CodeSignature/CodeResources
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics ... 
+2026-05-29 20:27:47 +0000  51392 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework/FirebaseAnalytics
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework/Info.plist ... 
+2026-05-29 20:27:47 +0000  1541 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources ... 
+2026-05-29 20:27:47 +0000  1798 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/_CodeSignature/CodeResources
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion ... 
+2026-05-29 20:27:47 +0000  51408 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/GoogleAdsOnDeviceConversion
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist ... 
+2026-05-29 20:27:47 +0000  1521 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources ... 
+2026-05-29 20:27:47 +0000  1798 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/_CodeSignature/CodeResources
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport ... 
+2026-05-29 20:27:47 +0000  51424 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/GoogleAppMeasurementIdentitySupport
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist ... 
+2026-05-29 20:27:47 +0000  1595 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/PrivacyInfo.xcprivacy ... 
+2026-05-29 20:27:47 +0000  478 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/PrivacyInfo.xcprivacy
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist ... 
+2026-05-29 20:27:47 +0000  738 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/GoogleUtilities_GoogleUtilities-MethodSwizzler.bundle/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/embedded.mobileprovision ... 
+2026-05-29 20:27:47 +0000  12348 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/embedded.mobileprovision
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/Info.plist ... 
+2026-05-29 20:27:47 +0000  1307 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/Info.plist
+2026-05-29 20:27:47 +0000  copying file ./Payload/CatsAndModules_AlinaKharchenko.app/PkgInfo ... 
+2026-05-29 20:27:47 +0000  8 bytes for ./Payload/CatsAndModules_AlinaKharchenko.app/PkgInfo
+2026-05-29 20:27:47 +0000 [MT] /usr/bin/ditto exited with 0
+2026-05-29 20:27:47 +0000 [MT] Processing step: IDEDistributionAppStoreInformationStep
+2026-05-29 20:27:47 +0000 [MT] Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2026-05-29 20:27:47 +0000 [MT] Processing step: IDEDistributionGenerateProcessedDistributionItems
+2026-05-29 20:27:47 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7f8636980:'/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurementIdentitySupport.framework'>
+2026-05-29 20:27:47 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7f632d810:'/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/FirebaseAnalytics.framework'>
+2026-05-29 20:27:47 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7f632d960:'/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAppMeasurement.framework'>
+2026-05-29 20:27:47 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7f8634600:'/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app/Frameworks/GoogleAdsOnDeviceConversion.framework'>
+2026-05-29 20:27:47 +0000 [MT] IDEDistributionItem init <DVTFilePath:0x7f8d18880:'/var/folders/fk/vvlpwk9n4v9cm1236srvm4n40000gn/T/XcodeDistPipeline.~~~uIGmes/Root/Payload/CatsAndModules_AlinaKharchenko.app'>
+2026-05-29 20:27:47 +0000 [MT] Processing step: IDEDistributionCreateManifestStep

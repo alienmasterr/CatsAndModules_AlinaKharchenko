@@ -6,23 +6,70 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C7649DBB2FC2027B0046AADE /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = C7649DBA2FC2027B0046AADE /* FirebaseAnalytics */; };
+		C7649DBD2FC2027B0046AADE /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = C7649DBC2FC2027B0046AADE /* FirebaseCrashlytics */; };
+		C7649DBF2FC2027B0046AADE /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = C7649DBE2FC2027B0046AADE /* FirebasePerformance */; };
+		C7FD6D5F2FB772BB00AB4030 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = C7FD6D5E2FB772BB00AB4030 /* Networking */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7BF68062FD1E2F5003FAEF2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7C2282C2FB728F600DA3270 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7C228332FB728F600DA3270;
+			remoteInfo = CatsAndModules_AlinaKharchenko;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		C7BF68002FD1E2F5003FAEF2 /* CatsAndModulesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatsAndModulesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7C228342FB728F600DA3270 /* CatsAndModules_AlinaKharchenko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatsAndModules_AlinaKharchenko.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C752739B2FCA22EF00E1AEFA /* Exceptions for "CatsAndModules_AlinaKharchenko" folder in "CatsAndModules_AlinaKharchenko" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C7C228332FB728F600DA3270 /* CatsAndModules_AlinaKharchenko */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		C7BF68012FD1E2F5003FAEF2 /* CatsAndModulesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CatsAndModulesUITests;
+			sourceTree = "<group>";
+		};
 		C7C228362FB728F600DA3270 /* CatsAndModules_AlinaKharchenko */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C752739B2FCA22EF00E1AEFA /* Exceptions for "CatsAndModules_AlinaKharchenko" folder in "CatsAndModules_AlinaKharchenko" target */,
+			);
 			path = CatsAndModules_AlinaKharchenko;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		C7BF67FD2FD1E2F5003FAEF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7C228312FB728F600DA3270 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7649DBD2FC2027B0046AADE /* FirebaseCrashlytics in Frameworks */,
+				C7649DBB2FC2027B0046AADE /* FirebaseAnalytics in Frameworks */,
+				C7649DBF2FC2027B0046AADE /* FirebasePerformance in Frameworks */,
+				C7FD6D5F2FB772BB00AB4030 /* Networking in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -33,6 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				C7C228362FB728F600DA3270 /* CatsAndModules_AlinaKharchenko */,
+				C7BF68012FD1E2F5003FAEF2 /* CatsAndModulesUITests */,
+				C7FD6D5D2FB772BB00AB4030 /* Frameworks */,
 				C7C228352FB728F600DA3270 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,13 +90,44 @@
 			isa = PBXGroup;
 			children = (
 				C7C228342FB728F600DA3270 /* CatsAndModules_AlinaKharchenko.app */,
+				C7BF68002FD1E2F5003FAEF2 /* CatsAndModulesUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C7FD6D5D2FB772BB00AB4030 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		C7BF67FF2FD1E2F5003FAEF2 /* CatsAndModulesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7BF68082FD1E2F5003FAEF2 /* Build configuration list for PBXNativeTarget "CatsAndModulesUITests" */;
+			buildPhases = (
+				C7BF67FC2FD1E2F5003FAEF2 /* Sources */,
+				C7BF67FD2FD1E2F5003FAEF2 /* Frameworks */,
+				C7BF67FE2FD1E2F5003FAEF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7BF68072FD1E2F5003FAEF2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C7BF68012FD1E2F5003FAEF2 /* CatsAndModulesUITests */,
+			);
+			name = CatsAndModulesUITests;
+			packageProductDependencies = (
+			);
+			productName = CatsAndModulesUITests;
+			productReference = C7BF68002FD1E2F5003FAEF2 /* CatsAndModulesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		C7C228332FB728F600DA3270 /* CatsAndModules_AlinaKharchenko */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C7C2283F2FB728FA00DA3270 /* Build configuration list for PBXNativeTarget "CatsAndModules_AlinaKharchenko" */;
@@ -65,6 +145,10 @@
 			);
 			name = CatsAndModules_AlinaKharchenko;
 			packageProductDependencies = (
+				C7FD6D5E2FB772BB00AB4030 /* Networking */,
+				C7649DBA2FC2027B0046AADE /* FirebaseAnalytics */,
+				C7649DBC2FC2027B0046AADE /* FirebaseCrashlytics */,
+				C7649DBE2FC2027B0046AADE /* FirebasePerformance */,
 			);
 			productName = CatsAndModules_AlinaKharchenko;
 			productReference = C7C228342FB728F600DA3270 /* CatsAndModules_AlinaKharchenko.app */;
@@ -80,6 +164,10 @@
 				LastSwiftUpdateCheck = 2600;
 				LastUpgradeCheck = 2600;
 				TargetAttributes = {
+					C7BF67FF2FD1E2F5003FAEF2 = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = C7C228332FB728F600DA3270;
+					};
 					C7C228332FB728F600DA3270 = {
 						CreatedOnToolsVersion = 26.0.1;
 					};
@@ -94,17 +182,28 @@
 			);
 			mainGroup = C7C2282B2FB728F600DA3270;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				C7649DB92FC2027B0046AADE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = C7C228352FB728F600DA3270 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				C7C228332FB728F600DA3270 /* CatsAndModules_AlinaKharchenko */,
+				C7BF67FF2FD1E2F5003FAEF2 /* CatsAndModulesUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		C7BF67FE2FD1E2F5003FAEF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7C228322FB728F600DA3270 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +214,13 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		C7BF67FC2FD1E2F5003FAEF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C7C228302FB728F600DA3270 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -124,7 +230,55 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		C7BF68072FD1E2F5003FAEF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7C228332FB728F600DA3270 /* CatsAndModules_AlinaKharchenko */;
+			targetProxy = C7BF68062FD1E2F5003FAEF2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		C7BF68092FD1E2F5003FAEF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PF3SA4F9K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = naukmaSwift.CatsAndModulesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatsAndModules_AlinaKharchenko;
+			};
+			name = Debug;
+		};
+		C7BF680A2FD1E2F5003FAEF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3PF3SA4F9K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = naukmaSwift.CatsAndModulesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CatsAndModules_AlinaKharchenko;
+			};
+			name = Release;
+		};
 		C7C2283D2FB728FA00DA3270 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -251,9 +405,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3PF3SA4F9K;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = D85QWSUNYA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -265,10 +422,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "naukmaSwift.CatsAndModules-AlinaKharchenko";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Apple-ENV Kharchenko";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -283,9 +445,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3PF3SA4F9K;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = D85QWSUNYA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -297,10 +461,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "naukmaSwift.CatsAndModules-AlinaKharchenko";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = "Apple-ENV Kharchenko";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -313,6 +482,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		C7BF68082FD1E2F5003FAEF2 /* Build configuration list for PBXNativeTarget "CatsAndModulesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7BF68092FD1E2F5003FAEF2 /* Debug */,
+				C7BF680A2FD1E2F5003FAEF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C7C2282F2FB728F600DA3270 /* Build configuration list for PBXProject "CatsAndModules_AlinaKharchenko" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -332,6 +510,39 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C7649DB92FC2027B0046AADE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.13.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C7649DBA2FC2027B0046AADE /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7649DB92FC2027B0046AADE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		C7649DBC2FC2027B0046AADE /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7649DB92FC2027B0046AADE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		C7649DBE2FC2027B0046AADE /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7649DB92FC2027B0046AADE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		C7FD6D5E2FB772BB00AB4030 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C7C2282C2FB728F600DA3270 /* Project object */;
 }

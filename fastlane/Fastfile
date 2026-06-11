@@ -1,0 +1,51 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Description of what the lane does"
+  lane :build_and_export do
+    gym(
+      project: "CatsAndModules_AlinaKharchenko.xcodeproj",
+      scheme: "CatsAndModules_AlinaKharchenko",
+      destination: "generic/platform=iOS",
+      export_method: "development",
+      archive_path: "./output/CatsAndModules.xcarchive",
+      output_directory: "./output",
+      output_name: "CatsAndModules.ipa",
+      export_options: {
+        signingStyle: "manual",
+        teamID: "D85QWSUNYA",
+        provisioningProfiles: {
+          "ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko" => "Apple-ENV Kharchenko"
+        }
+      }
+    )
+    firebase_app_distribution(
+      app: "1:184263907664:ios:48e9980d6907d4f7fd3455",
+      ipa_path: "./output/CatsAndModules.ipa",
+      release_notes: "Версія 1.1 - додано DOGS",
+      testers: "o.frankiv@ukma.edu.ua",
+      firebase_cli_token: ENV["FIREBASE_TOKEN"]
+    )
+    puts "Збірка успішно завантажена до Firebase"
+  end
+  
+  lane :take_screenshots do
+    snapshot
+  end
+  
+end
