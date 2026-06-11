@@ -15,7 +15,7 @@ workflows:
       - Firebase
       - ios_credentials
       ios_signing:
-        distribution_type: ad_hoc
+        distribution_type: development
         bundle_identifier: ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko
       vars:
         XCODE_PROJECT: "CatsAndModules_AlinaKharchenko.xcodeproj"
