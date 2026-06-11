@@ -11,6 +11,8 @@ workflows:
           source: true
     
     environment:
+      groups:
+      - Firebase
       ios_signing:
         distribution_type: development
         bundle_identifier: ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko
