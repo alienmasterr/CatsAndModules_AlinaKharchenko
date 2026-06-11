@@ -16,7 +16,7 @@ workflows:
       - ios_credentials
       ios_signing:
         distribution_type: development
-        bundle_identifier: ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko
+        bundle_identifier: ua.edu.ukma.apple-env.kharchenko.*
       vars:
         XCODE_PROJECT: "CatsAndModules_AlinaKharchenko.xcodeproj"
         XCODE_SCHEME: "CatsAndModules_AlinaKharchenko"
