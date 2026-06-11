@@ -17,6 +17,7 @@ workflows:
       ios_signing:
         distribution_type: development
         provisioning_profile_name: Apple-ENV Kharchenko
+        bundle_identifier: ua.edu.ukma.apple-env.kharchenko.*
       vars:
         XCODE_PROJECT: "CatsAndModules_AlinaKharchenko.xcodeproj"
         XCODE_SCHEME: "CatsAndModules_AlinaKharchenko"
