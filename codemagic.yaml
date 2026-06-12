@@ -13,10 +13,11 @@ workflows:
     environment:
       groups:
       - Firebase
-      - ios_credentials
       ios_signing:
-        distribution_type: ad_hoc
-        bundle_identifier: ua.edu.ukma.apple-env.kharchenko.*
+        provisioning_profiles:
+          - alina_development_profile
+        certificates:
+          - alina_development_cert
       vars:
         XCODE_PROJECT: "CatsAndModules_AlinaKharchenko.xcodeproj"
         XCODE_SCHEME: "CatsAndModules_AlinaKharchenko"
