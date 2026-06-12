@@ -26,9 +26,10 @@ workflows:
     
     scripts:
       - name: Install dependencies
-        script: |
-          gem install bundler
-          bundle install --path vendor/bundle
+      script: |
+        gem install bundler
+        bundle config set path 'vendor/bundle'
+        bundle install
       
       - name: Set build number
         script: |
