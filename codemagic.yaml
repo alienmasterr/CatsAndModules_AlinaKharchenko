@@ -52,4 +52,4 @@ workflows:
           app_id: $FIREBASE_APP_ID
     
           groups:
-            - testers
+            - evaluators
