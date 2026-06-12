@@ -33,7 +33,7 @@ workflows:
       
       - name: Set build number
         script: |
-          BUILD_NUMBER=$(( $(app-store-connect get-latest-build-number "$BUNDLE_ID") + 1 ))
+          BUILD_NUMBER=$(git rev-list --count HEAD)
           agvtool new-version -all $BUILD_NUMBER
       
       - name: Build IPA
