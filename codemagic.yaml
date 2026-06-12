@@ -1,0 +1,55 @@
+workflows:
+  ios-release:
+    name: iOS Release to Firebase
+    
+    triggering:
+      events:
+        - push
+      branch_patterns:
+        - pattern: release_AlinaKharchenko
+          include: true
+          source: true
+    
+    environment:
+      groups:
+      - Firebase
+      ios_signing:
+        provisioning_profiles:
+          - alina_development_profile
+        certificates:
+          - alina_development_cert
+      vars:
+        XCODE_PROJECT: "CatsAndModules_AlinaKharchenko.xcodeproj"
+        XCODE_SCHEME: "CatsAndModules_AlinaKharchenko"
+        BUNDLE_ID: "ua.edu.ukma.apple-env.kharchenko.cats-and-modules-kharchenko"
+        FIREBASE_APP_ID: "1:184263907664:ios:48e9980d6907d4f7fd3455"
+    
+    scripts:
+      - name: Install dependencies
+        script: |
+          gem install bundler
+          bundle config set path 'vendor/bundle'
+          bundle install
+      
+      - name: Set build number
+        script: |
+          BUILD_NUMBER=$(( $(app-store-connect get-latest-build-number "$BUNDLE_ID") + 1 ))
+          agvtool new-version -all $BUILD_NUMBER
+      
+      - name: Build IPA
+        script: |
+          bundle exec fastlane build_and_export
+    
+    artifacts:
+      - output/*.ipa
+      - output/*.dSYM.zip
+    
+    publishing:
+      firebase:
+        firebase_token: $FIREBASE_TOKEN
+    
+        ios:
+          app_id: $FIREBASE_APP_ID
+    
+          groups:
+            - evaluators
